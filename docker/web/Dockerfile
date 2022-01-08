@@ -1,0 +1,8 @@
+FROM mysql:8
+
+
+ENV MYSQL_ALLOW_EMPTY_PASSWORD="yes"
+
+
+EXPOSE 3306
+
